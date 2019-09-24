@@ -38,7 +38,7 @@
 	],
 	"license": "MIT",
 	"devDependencies": {
-		"@svgr/core": "4.3.2",
+		"@svgr/core": "4.3.3",
 		"@svgr/plugin-jsx": "4.3.2",
 		"@svgr/plugin-prettier": "4.3.2",
 		"@svgr/plugin-svgo": "4.3.1",
