@@ -669,6 +669,13 @@
   dependencies:
     "@types/node" "*"
 
+"@types/cheerio@^0.22.22":
+  version "0.22.22"
+  resolved "https://registry.yarnpkg.com/@types/cheerio/-/cheerio-0.22.22.tgz#ae71cf4ca59b8bbaf34c99af7a5d6c8894988f5f"
+  integrity sha512-05DYX4zU96IBfZFY+t3Mh88nlwSMtmmzSYaQkKN48T495VV1dkHSah6qYyDTN5ngaS0i0VonH37m+RuzSM0YiA==
+  dependencies:
+    "@types/node" "*"
+
 "@types/enzyme-adapter-react-16@1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@types/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.5.tgz#1bf30a166f49be69eeda4b81e3f24113c8b4e9d5"
@@ -2376,12 +2383,14 @@ enzyme-shallow-equal@^1.0.0:
     has "^1.0.3"
     object-is "^1.0.1"
 
-enzyme-to-json@3.4.3:
-  version "3.4.3"
-  resolved "https://registry.yarnpkg.com/enzyme-to-json/-/enzyme-to-json-3.4.3.tgz#ed4386f48768ed29e2d1a2910893542c34e7e0af"
-  integrity sha512-jqNEZlHqLdz7OTpXSzzghArSS3vigj67IU/fWkPyl1c0TCj9P5s6Ze0kRkYZWNEoCqCR79xlQbigYlMx5erh8A==
+enzyme-to-json@3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/enzyme-to-json/-/enzyme-to-json-3.6.1.tgz#d60740950bc7ca6384dfe6fe405494ec5df996bc"
+  integrity sha512-15tXuONeq5ORoZjV/bUo2gbtZrN2IH+Z6DvL35QmZyKHgbY1ahn6wcnLd9Xv9OjiwbAXiiP8MRZwbZrCv1wYNg==
   dependencies:
+    "@types/cheerio" "^0.22.22"
     lodash "^4.17.15"
+    react-is "^16.12.0"
 
 enzyme@3.10.0:
   version "3.10.0"
@@ -6240,6 +6249,11 @@ react-is@^16.10.2, react-is@^16.9.0:
   version "16.10.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.10.2.tgz#984120fd4d16800e9a738208ab1fba422d23b5ab"
   integrity sha512-INBT1QEgtcCCgvccr5/86CfD71fw9EPmDxgiJX4I2Ddr6ZsV6iFXsuby+qWJPtmNuMY0zByTsG4468P7nHuNWA==
+
+react-is@^16.12.0:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
 react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   version "16.8.6"
