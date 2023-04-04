@@ -56,15 +56,15 @@
 		"mkdirp": "0.5.1",
 		"prettier": "1.19.1",
 		"raf": "3.4.1",
-		"react": "16.13.1",
-		"react-dom": "16.13.1",
+		"react": "16.14.0",
+		"react-dom": "16.14.0",
 		"ts-jest": "24.1.0",
 		"typescript": "3.8.3",
 		"typings": "2.1.1"
 	},
 	"peerDependencies": {
-		"react": "16.13.1",
-		"react-dom": "16.13.1"
+		"react": "16.14.0",
+		"react-dom": "16.14.0"
 	},
 	"jest": {
 		"moduleFileExtensions": [
